@@ -1,0 +1,144 @@
+body {
+
+		padding: 0;
+		margin: 0;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 14px;
+		color: #666;
+}
+
+h1 {
+		text-align: center;
+		margin-bottom: 0;
+		margin-top: 60px;
+}
+
+#modal {
+
+	width: 100%;
+}
+
+#lean_overlay {
+		position: fixed;
+		z-index: 100;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		background: #000;
+		display: none;
+}
+
+.container {
+
+}
+
+.popupContainer {
+
+		background: #FFF;
+
+}
+
+#modal_trigger {
+
+		display: block;
+}
+
+
+.one_half {
+		width: 50%;
+		display: block;
+		float: left;
+}
+
+.one_half.last {
+		width: 45%;
+		margin-left: 5%;
+}
+/* Popup Styles*/
+
+.popupHeader {
+		font-size: 16px;
+		text-transform: uppercase;
+}
+
+.popupHeader {
+		background: #5BC0DE;;
+		position: relative;
+		padding: 10px 20px;
+		border-bottom: 1px solid #DDD;
+		font-weight: bold;
+
+}
+.header_title {
+
+	color: white;
+}
+.popupHeader .modal_close {
+    position: absolute;
+    right: 0;
+    border-radius: 55px;
+    top: 15%;
+    right: 3%;
+    background: #A7A7A7;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    padding: 0% 3%;
+    transition-duration : 0.3s;
+}
+
+.modal_close:hover {
+
+    position: absolute;
+    right: 0;
+    border-radius: 55px;
+    top: 15%;
+    right: 3%;
+    background: orange;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    padding: 0% 3%;
+
+
+}
+
+.popupBody {
+
+	padding: 20px;	
+    justify-content: center;
+    width: 50%!important;
+    margin: auto;
+}
+
+
+.centeredText {
+		text-align: center;
+		margin: 20px 0;
+		clear: both;
+		overflow: hidden;
+		text-transform: uppercase;
+}
+
+.action_btns {
+		clear: both;
+		overflow: hidden;
+}
+
+.action_btns a {
+		display: block;
+}
+
+/* User Register Form */
+
+
+.user_register label {
+		display: block;
+		margin-bottom: 5px;
+}
+
+.inline-form input{
+	display: inline-block;
+	width: 200px;
+}

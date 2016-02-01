@@ -1,0 +1,182 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+/* NAV STYLE */
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-collapse.in {
+    overflow-y: initial;
+}
+
+/* QUESTIONS REPONSES STYLES */
+.question {
+	background-color: #EEEEEE;
+	margin-bottom: 2%;
+	border-radius: 6px;
+}
+.blockqr {
+	opacity: 0;
+}
+
+.details {
+	background-color: #EEEEEE;
+	margin-bottom: 2%;
+	border-radius: 6px;
+}
+
+.reponse {
+	background-color: #EEEEEE;
+	margin-bottom: 2%;
+	border-radius: 6px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* STYLES DES BOUTONS */
+.btn-default:hover {
+	background-color: #337ab7;
+	color: white;
+}
+
+.btnbronze {
+	background-color: rgba(150, 41, 24, 0.62);
+	border: none;
+	color: white;
+}
+.btnbronze:hover {
+	background-color: rgba(150, 41, 24, 0.77);
+	border: none;
+	color: white;
+}
+
+.btnargent {
+	background-color: rgba(144, 143, 143, 0.62); 
+	border: none;
+	color: white;
+}
+.btnargent:hover {
+	background-color: rgba(144, 143, 143, 0.77);
+	border: none;
+	color: white;
+}
+
+.btnor {
+	background-color: rgba(228, 232, 3, 0.77);
+	border: #E4BB00 solid 1px;
+	color: chocolate;
+}
+.btnor:hover {
+	background-color: rgb(218, 222, 0);
+	border: #E4BB00 solid 1px;
+	color: chocolate;
+}
+
+
+footer {
+	background-color: #131313;
+	color: #9d9d9d;
+}
+
+/* TRI NAV */
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+
+.btnreponse {
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+}
+
+.btnreponse {
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+}
+
+.btnchecked {
+	margin-top: 15px;
+}
+
+/* SCROLL TO TOP */ 
+
+.scrollToTop{
+	text-align:center; 
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	bottom:110px;
+	right:20px;
+	display:none;
+}
+
+.scrollToTop:hover{
+	text-decoration:none;
+}
+

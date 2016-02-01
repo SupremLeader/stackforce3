@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+body {
+
+}
+
+.wrapperProfil {
+
+    height: 1000px;
+}
+
+.conteneur{
+
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #EEEEEE;
+}
+
+/*---------------------------Styles Vcard----------------------------------*/
+
+#portrait{
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.media{
+   vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+    
+}
+
+
+img{
+    height:auto;
+    width:10em;
+    border:solid grey 2px;
+    
+    
+}
+
+form{
+    padding-top:9%;
+}
+
+.form-group{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#bouton{
+    height: 150px;
+    line-height: 150px;
+}
+
+#modifier{
+     vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+
+
+
+/*----------------------------Styles Me suivre-----------------------------*/
+
+#me_suivre {
+    background-color: #337AB7;
+    color:white;
+}
+
+.icone{
+    color:#31B0D5;
+}
+
+ul {
+    
+list-style: outside none none;
+    
+}
+
+.social-links {
+    
+    margin: 18px 0px 30px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+
+.social-links li {
+    
+    display: inline-block;
+    margin: 0px 0px 0px 42px;
+    padding: 0px;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.social-links li :hover {
+    
+    color: chocolate;
+
+
+    
+}
+
+/*------------------------------Styles Badges-------------------------------------*/
+
+
+
+
+
+#skills {
+    
+    background-color: #337AB7;
+    color:white;
+}
+
+#boutons{
+     padding-top:2%;
+        padding-bottom: 3%;
+    
+    
+}
+
+
+.btnbronze {
+	background-color: rgba(150, 41, 24, 0.62);
+	border: none;
+	color: white;
+}
+.btnbronze:hover {
+	background-color: rgba(150, 41, 24, 0.77);
+	border: none;
+	color: white;
+}
+
+.btnargent {
+	background-color: rgba(144, 143, 143, 0.62); 
+	border: none;
+	color: white;
+}
+.btnargent:hover {
+	background-color: rgba(144, 143, 143, 0.77);
+	border: none;
+	color: white;
+}
+
+.btnor {
+	background-color: rgba(228, 232, 3, 0.77);
+	border: #E4BB00 solid 1px;
+}
+.btnor:hover {
+	background-color: rgb(218, 222, 0);
+	border: #E4BB00 solid 1px;
+}
+
+
+/*-----------------------------------------input disparition-----------------------*/
+
+
+.disparition {
+   display:none;
+    visibility:hidden;
+}
+
