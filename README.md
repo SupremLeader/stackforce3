@@ -34,6 +34,6 @@
 		- Technologies : PHP et SQL
 	- Yoann : 
 		- Fonctionnalités : Formulaires et affichage, front pages, animations
-		- Technologies : HTML, CSS, Bootstrap; jQuery
+		- Technologies : HTML, CSS, Bootstrap, jQuery
 
 - Chef de projet : Kilian
