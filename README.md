@@ -33,7 +33,7 @@
 		- Fonctionnalités : Formulaires, fonctions et BDD
 		- Technologies : PHP et SQL
 	- Yoann : 
-		- Fonctionnalités : Formulaires et affichage
-		- Technologies : HTML, CSS et Bootstrap
+		- Fonctionnalités : Formulaires et affichage, front pages, animations
+		- Technologies : HTML, CSS, Bootstrap; jQuery
 
 - Chef de projet : Kilian
